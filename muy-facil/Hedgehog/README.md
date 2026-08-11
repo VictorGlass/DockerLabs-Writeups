@@ -13,12 +13,7 @@
 Prácticar fuerza bruta SSH y escalada de privilegios mediante movimiento entre usuarios
 
 
-## Vectores Utilizados:
-
-
-
----
-
+<br></br>
 ## Inicio
 
 ### Descripcion de la VM - Hedgehog
@@ -31,9 +26,9 @@ Laboratorio para practicar fuerza bruta **SSH** y escalada de privilegios median
 
 - AnkbNikas
 
----
 
 
+<br></br>
 ## 📚 Comenzando
 
 * Descargar la VM de DockerLabs - Hedgehog
