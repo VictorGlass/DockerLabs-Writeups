@@ -83,6 +83,8 @@ Puertos abiertos
 
 - 80/tcp open HTTP
 
+<br></br>
+
 
 ## 3. Enummeración Web
 
@@ -103,6 +105,7 @@ javascript -> http://172.17.0.2/javascript/
 Tampoco hay mucho en dicho link
 ```
 
+<br></br>
 
 ## 4. Fase Intrusión - Acceso inicial 
 
@@ -114,6 +117,9 @@ En el paso de enumeración, tuve un resultado de 2 nombres, los cuales usare par
 
 Como dice el texto plano...
 De Juan para "Camilo"
+
+<br></br>
+
 
 ## 5. Explotación
 
@@ -134,11 +140,17 @@ Ya teniendo las credenciales ingresare por SSH
 ¡Perfecto!
 
 
+<br></br>
+
+
 ## 6. Obtener Acceso
 
 <img src="assets/obtener acceso.png" alt="">
 
 Pude ingresar
+
+
+<br></br>
 
 
 ## 7. Realizando Pivote
@@ -155,6 +167,9 @@ cd /var/mail/camilo
 <img src="assets/realizando pivot.png" alt="">
 
 Me dice que es un directorio...
+
+
+<br></br>
 
 
 ## 8. Listar los Ficheros que estan dentro
@@ -180,6 +195,9 @@ cat correo.txt
 Me entrego un mensaje y una contraseña que utilizare ahora...
 
 
+<br></br>
+
+
 ## 9. Pasos Finales
 
 Ahora ya debo realizar la elevacion de privilegios a **root**
@@ -199,6 +217,9 @@ sudo -l
 
 
 Esto me dice que el usuario **Juan** puede ejecutar binario como root sin necesidad de contraseña
+
+
+<br></br>
 
 
 ### Paso Final
